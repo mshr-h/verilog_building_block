@@ -4,3 +4,4 @@ TBA
 
 ## Modules
 - `button_debounce.v` - debouncing circuit
+- `ram_sp.v` - Single port RAM
