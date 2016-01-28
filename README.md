@@ -6,3 +6,4 @@ TBA
 - `button_debounce.v` - debouncing circuit
 - `ram_sp.v` - Single port RAM
 - `adder_tree.v` - Adder tree
+- `shift_register.v` - Shift Register
