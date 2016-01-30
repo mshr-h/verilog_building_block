@@ -37,7 +37,8 @@ generate // pack
 for (i = 0; i < BANK_SIZE/2; i = i + 1) begin : UNPACKING
   assign out[(i+1)*(WORD_SIZE+1)-1:i*(WORD_SIZE+1)] = owire[i];
 end
-endgenerate
+endgenerate // pack
 
-endmodule // pack
+endmodule
+`default_nettype wire
 
