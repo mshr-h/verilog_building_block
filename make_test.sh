@@ -9,6 +9,8 @@ iverilog -o tb_shift_register.out tb_shift_register.v
 vvp tb_shift_register.out
 iverilog -o tb_synchronizer.out tb_synchronizer.v
 vvp tb_synchronizer.out
+iverilog -o tb_uart_rx.out tb_uart_rx.v
+vvp tb_uart_rx.out
 
 cd ../script
 python convert2mif.py ../test/ram_content.txt out.mif

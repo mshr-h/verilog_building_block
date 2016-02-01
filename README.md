@@ -11,3 +11,4 @@ TBA
 - `adder_tree.v` - Adder tree
 - `shift_register.v` - Shift Register
 - `synchronizer.v` - Synchronize data
+- `uart_rx.v` - UART reciever(not tested on FPGA board)
