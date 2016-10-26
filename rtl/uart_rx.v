@@ -9,16 +9,16 @@ module uart_rx
   output reg        rx_rdy
 );
 
-parameter IDLE  = 0;
-parameter BIT_0 = 1;
-parameter BIT_1 = 2;
-parameter BIT_2 = 3;
-parameter BIT_3 = 4;
-parameter BIT_4 = 5;
-parameter BIT_5 = 6;
-parameter BIT_6 = 7;
-parameter BIT_7 = 8;
-parameter READY = 9;
+localparam IDLE  = 0;
+localparam BIT_0 = 1;
+localparam BIT_1 = 2;
+localparam BIT_2 = 3;
+localparam BIT_3 = 4;
+localparam BIT_4 = 5;
+localparam BIT_5 = 6;
+localparam BIT_6 = 7;
+localparam BIT_7 = 8;
+localparam READY = 9;
 
 reg [3:0] state;
 
